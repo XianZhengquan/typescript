@@ -12,11 +12,11 @@
   
   ```typescript
   let decLiteral : number = 6; 
-
+  
   let hexLiteral : number = 0xf00d; 
-
+  
   let binaryLiteral : number = 0b1010; 
-
+  
   let octalLiteral : number = 0o744;
   ```
 
@@ -77,11 +77,13 @@
   let c: Color = Color.Green;
   
   /* ------- */
+  
   // 或者，全部都采用手动赋值：
   enum Color {Red = 1, Green = 2, Blue = 4}
   let c: Color = Color.Green;
   
   /* ------- */
+  
   // 枚举类型可以由枚举值得到名字
   enum Color {Red = 1, Green, Blue}
   let colorName: string = Color[2];
