@@ -32,4 +32,6 @@ interface SquareConfig {
 let mySquare = createSquare({ colour: "red", width: 100 }); // ok
 ```
 
+# 测试连接（adwa [test](./../基础类型/README.md)）
+
 
